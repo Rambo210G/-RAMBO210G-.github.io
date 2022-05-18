@@ -13,7 +13,7 @@
 
 ---
 
-### Made with ❤️ by [STUNTRAMBO]([https://www.instagram.com/shaifarfan08/](https://www.youtube.com/channel/UCUAZRs0xnVM__EFjPXXRvmQ))
+### Made with ❤️ by [STUNTRAMBO](https://www.youtube.com/channel/UCUAZRs0xnVM__EFjPXXRvmQ)
 
 ## License
 
