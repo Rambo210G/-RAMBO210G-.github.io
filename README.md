@@ -1,27 +1,20 @@
 # StarkMarkt Inc.
 
-
-
-
 ## 
 
 ### Powered by GitHub!
 
+---
+
 # Hello Visitors!
 
-## This website is under rapid development, and has a boosted Discord server that complements it's structure. Feel free to check it out by signing up and actively getting involved in something new that will take your skills to the next level! A digital workspace for inspiring developers to unite and create their heart's desire!
+## This website is under rapid development, and has a boosted 'Discord' server that complements it's structure. Feel free to check it out by signing up and actively getting involved in something new that will take your skills to the next level! A digital workspace for inspiring developers to unite and create their heart's desire!
+
+---
 
 A blog is featured on the 'Home' page called "Hangout" which also advertises an open responsive store with various products to offer. A whole other section dedicated to game development and the graphics. 
 
 ---
-
-### Made with ❤️ by [RAMBO210G](https://www.youtube.com/channel/UCUAZRs0xnVM__EFjPXXRvmQ)
-
-## License
-
-See [LICENSE](LICENSE).
-
-
 
 <h1 align='center'>StarkMarkt</h1>
    <p align="center">
@@ -48,21 +41,21 @@ See [LICENSE](LICENSE).
 <p align='right'>
 
 ```
-I am Winter
+I am Rambo210G
 -------------------------
 💻 Self taught, self motivated full stack web developer currently studying machine learning
-📚 Computer science teaching assistant at NECA
+📚 Computer Science Degree - Mississippi State University 
 🔭 Smaller skills include bash scripting, python automation, web scraping and beginner-level pentesting
 🌟 Main languages: Python, JavaScript, Bash, Golang
-💖 In a complicated relationship with Rust
-🎵 Fingerstyle guitarist
+💖 In a relationship with Jesus
+🎵 Music Production
 ```
 </p>
 <hr>
 
 <div>  
   <p align="center">
-    <a href="https://wintersunset95.github.io/WinterSunset95">
+    <a href="https://www.github.com/Rambo210G/StarkMarkt">
       <img width="49%" src="https://github-readme-stats.vercel.app/api?username=WinterSunset95&show_icons=true&theme=gruvbox&hide_border=true" />
       <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=WinterSunset95&theme=gruvbox&hide_border=true" />
     </a>
@@ -77,6 +70,14 @@ I am Winter
 <br>
 <br><br>
 <small><i>Profile looks better on landscape screen orientation</i></small>
+<br><br>
+### Made with ❤️ by [RAMBO210G](https://www.youtube.com/channel/UCUAZRs0xnVM__EFjPXXRvmQ)
+
+## License
+
+See [LICENSE](LICENSE).
+
+
 
 <!--
 <b>Is: </b><br>
