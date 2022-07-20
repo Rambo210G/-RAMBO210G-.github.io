@@ -1,10 +1,25 @@
+/*
+    StarkMarkt Introduction Header CSS for All Pages
+*/
+
 #opening {
     background-color: black;
-    height: 90px;
-    border: solid;
+    height: 180px;
+    width: 1200px;
     border-width: 4px;
-    padding: 30px;
+    
 }
+
+#title {
+  background-color: purple;
+  height: 500px;
+  width: 1200px;
+  
+}
+
+/*
+    This is the Button Animation when Hovering Mouse.
+*/
 a:link, a:visited {
   background-color: white;
   color: black;
@@ -28,12 +43,124 @@ a:hover, a:active {
 
 }
 
+
+/*
+    main.html CSS Page Inserts
+*/
+
+
 #nav {
     font-size: 20px;
     position: absolute;
     top: 170px;
     
 }
+
+#navbar {
+    background-image: url("https://fsb.zobj.net/crop.php?r=kjeRqMXGB6fxwuAkPtUCUwpjgHj8Pgcav4AuIvWQvFbexcYXNmNJB9Oj5jtZf_Go8G_u8WPKKbPufWnSxH0ARPceqsXjxY6SFb6WO3DTRokKMl2PH0An5zCryPcFCQtX9__KSUeVr1-Nbdhu");
+    height: 250px;
+    width: 1100px;
+    position: absolute;
+    top: 90%;
+
+
+}
+
+#shadowBox {
+    background-color: black;
+    /* Fallback color */
+    background-color: white;
+    /* Black w/opacity/see-through */
+    border: 3px solid;
+    position: absolute;
+    top: 930px;
+    left: 600px;
+    background-color: black;
+  }
+
+#logintxt {
+    position: absolute;
+    top: 190px;
+    left: 415px;
+    font-size: 20px;
+    background-color: orangered;
+    border-radius: 100%;
+    padding: 10px;
+    border: solid;
+    border-color:blue;
+    border-width: 3px;
+    
+
+
+
+
+}
+/*
+This is the Account Login Form Box Colored Green: LEFT-SIDE
+*/
+
+#login {
+    background-color: green;
+    position: absolute;
+    border: solid;
+    width: 180px;
+    padding: 10px;
+    top: 270px;
+    left: 379px;
+    height: 130px;
+
+}
+
+#button1 {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+  
+}
+
+
+/* 
+This is the Account Recovery Form Box Colored Green: RIGHT-SIDE
+*/
+#recover {
+    position:absolute;
+    left: 750px;
+    top: 270px;
+    border: solid;
+    padding: 10px;
+    background-color: green;
+    height: 129px;
+
+}
+
+#text1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    left: 25px;
+    color:mediumturquoise
+
+}
+
+#button2 {
+    position: absolute;
+    top: 320px;
+    left: 820px;
+
+}
+
+/*
+    main.html CSS for Images
+*/
+
+#gif {
+    position: absolute;
+    left: 88px;
+    top: 863px;
+    width: 300px;
+}
+
+
+
 #aboutcontent {
 position: absolute;
 top: 225px;
@@ -49,26 +176,180 @@ border: solid;
 border-width: 30px;
 padding: 5px;
 
-
-
-
-
-
-
 }
 
+/*
+    osrsgp.html CSS Page Inserts
+*/
 
+#osrsimg {
 
-
-#pictwo {
 position: absolute;
-top: 500px;
-left: 120px;
-height: 150px;
-width: 300px;
+top: 300px;
+left: 200px;
+
+}
+#osrsgpi {
+
+  position: absolute;
+  left: 250px;
+  top: 900px;
+
+}
+
+/*
+    hangout.html CSS Page Inserts
+*/
+
+#blognav {
+  border: solid;
+  height: 1600px;
+  width: 625px;
+  position: absolute;
+  top: 4200px;
+  background-color: darkred;
+  padding: 15px;
+
+}
+#navblogl{
+position: absolute;
+border: solid;
+border-width: 10px;
+height: 1450px;
+width: 200px;
+padding: 5px;
+}
+#navblogr{
+  position: absolute;
+  border: solid;
+  border-width: 10px;
+  height: 1450px;
+  width: 200px;
+  left: 400px;
+}
+#stack_lone{
+ position: absolute;
+ word-wrap: break-word;
+
+}
+#stack_rone{
+position: absolute;
+left: 10px;
+top: 20px;
+word-wrap: break-word;
+}
+#stack_ltwo{
+  position: absolute;
+  top: 475px;
+  word-wrap: break-word;
+}
+#stack_rtwo{
+  position: absolute;
+  left: 10px;
+  top: 520px;
+  word-wrap: break-word;
+}
+#stack_lthree{
+  position: absolute;
+  top: 950px;
+  word-wrap: break-word;
+}
+#stack_rthree{
+  position: absolute;
+  left: 10px;
+  top: 1000px;
+  word-wrap: break-word;
+}
+
+#smilepic {
+    position: absolute;
+    left: 77%;
+    border-radius: 30%;
+    top: 25%;
+    width: 15%;
+}
+
+#cowardpic {
+    position: absolute;
+    left: 250px;
+    top: 120px;
+    width: 20%;
+    height: 25%;
+    border-radius: 40%;
+
+}
+#blogsignup{
+    border: solid;
+    border-width: 4px;
+    position: absolute;
+    border-color: black;
+    top: 67px;
+    width: 200px;
+    height: 200px;
+    
+    }
+
+#hangtxtcontainer {
+position: absolute;
+background-color: gold;
+top: 160%;
+width: 90%;
+padding: 10px;
+border: black;
+border: solid;
+border-width: 5;
+border-right-color: #0099ff;
+border-left-color:#0099ff;
+}
+
+#h1tag {
+position: absolute;
+left: 80px;
+top: -100%;
+font-size: 34px;
+}
+
+#ptag {
+padding: 12px;
+font-size: 22px;
+color:rgb(2, 40, 229)
 
 
 }
+
+#youtubevid {
+position: absolute;
+top: 6000px;
+left: 25%;
+height: 200px;
+width: 300px;
+border: solid;
+border-width: 10px;
+border-color: gold;
+}
+
+#youtubevidtwo {
+    position: absolute;
+    top: 6000px;
+    left: 75%;
+    height: 200px;
+    width: 300px;
+    border: solid;
+    border-width: 10px;
+    border-color: gold;
+
+
+    }
+
+
+
+#rainbowpic {
+    position: absolute;
+    left: 600px;
+    
+}
+
+
 
 #gif_two {
   position: relative;
@@ -85,37 +366,55 @@ width: 300px;
   }
   
 
-#gif {
-    position: absolute;
-    left: 88px;
-    top: 663px;
-    width: 300px;
-}
+/*
+  OrderPage.html CSS Page Inserts
+*/
 
-#recover {
-    position:absolute;
-    left: 750px;
-    top: 220px;
-    border: solid;
-    padding: 10px;
-    background-color: green;
-    height: 129px;
+#amazon{
+position: absolute;
+border: solid;
+border-width: 4px;
+border-color: black;
+width: 750px;
+height: 250px;
+top: 900px;
+background-color: #ff3399;
 
 }
 
-#login {
-    background-color: green;
-    position: absolute;
-    border: solid;
-    width: 180px;
-    padding: 10px;
-    top: 220px;
-    left: 400px;
-    height: 130px;
+#quicklink {
 
+  position: absolute;
+  top: 80px;
+  left: 320px;
+  width: 150px;
+  height: 75px;
 
 }
+/*
+    Customizable Color Theme for Button
+*/
 
+#arrow:link, #arrow:visited {
+    background-color: grey;
+    color: black;
+    border: 2px solid darkblue;
+    padding: 7px 12px;
+    margin: 3%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #arrow:hover, #arrow:active {
+    background-color: blue;
+    color: white;
+  }
+
+
+/*
+    Projects.html CSS Page Inserts
+*/
 
 #pic {
 
@@ -124,75 +423,60 @@ width: 300px;
   top: 150px;
   border: solid;
   border-width: 40px;
-  
-  
   }
 
-
-
-
-#button1 {
+#pictwo {
     position: absolute;
-    top: 100px;
-    left: 70px;
-  
+    top: 500px;
+    left: 120px;
+    height: 150px;
+    width: 300px;
+ }
 
-
-
-}
-#button2 {
+#linkone {
     position: absolute;
-    top: 320px;
-    left: 820px;
-
-}
-
-#text1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: absolute;
-    left: 25px;
-    color:mediumturquoise
-    
+    left: 40%;
+    top: 80%;
+    width: 80px;
+    color: greenyellow;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    background-color:salmon;
+    border: solid;
+    border-color:rgb(0, 0, 0);
+    border-radius: 20%;
+    border-width: 7px;
 
 
 }
 
-#shadowBox {
-    background-color: rgb(0, 0, 0);
-    /* Fallback color */
-    background-color: rgba(223, 55, 55, 0.2);
-    /* Black w/opacity/see-through */
-    border: 3px solid;
-    position: absolute;
-    top: 530px;
-    left: 100px;
-    background-color: black;
-  }
-  #rsgold {
-    position: absolute;
-    left: 857px;
-    top: 166px;
-    height: 18px;
-
-  }
 
 
 
 
-#projects {
+
+
+#textbox {
   position: absolute;
-  left: 956px;
-  top: 166px;
-  height: 18px;
-  width: 58px;
-  
+  height: 70px;
+  border: solid;
+  border-color: #00ff44;
+  border-radius: 5%;
+  border-width: 2.3px;
+}
 
-
+#txtbox {
+position: absolute;
+left: 70px;
 
 
 }
+
+
 
   .rainbow {
+    background-color: white;
     text-align: center;
     text-decoration: underline;
     font-size: 32px;
@@ -206,7 +490,7 @@ width: 300px;
     position: absolute;
     top: -5px;
     padding: 10px;
-    left: 400px;
+    left: 100px;
     text-decoration: double;
     border: solid;
     border-color:aqua;
@@ -217,27 +501,9 @@ width: 300px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     animation: colorRotate 9s linear 0s infinite;
-    
+    width: 100%;
 
 }
-.rainbowthree {
-  
-  position: absolute;
-  top: 100px;
-  left: -5px;
-  border-style: groove;
-  font-size: 15px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  letter-spacing: 1px;
-  animation: colorRotate 9s linear 0s infinite;
-
-
-
-}
-
-
-
-
 
   body {
     animation: colorchange 10s infinite; 
@@ -259,8 +525,4 @@ width: 300px;
     100% {
       color: #6666ff;
     }
-
-
-
-
   }
