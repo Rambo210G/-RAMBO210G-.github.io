@@ -7,45 +7,69 @@
     <title>Homepage</title>
     
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+<div style="overflow-y:scroll;">
+
+
 
 
 
 <div id="title">
-<div id="opening">  
+    <div id="opening">  
 
-    <h1 class="rainbowtwo">Welcome to StarkMarkt!</h1>
+        <h1 class="rainbowtwo">Welcome to StarkMarkt!</h1>
 
+    </div>
 </div>
-</div>
 
+<br /><br /><br /><br />
+<!-- These are the Nav Buttons to Each Page. -->
 
-<a id="projects" class="rainbowthree" href="\projects.html">Projects</a>
-<a id="rsgold" class="rainbowthree" href="\rsgold.html">RsGold</a>
-<a id="osrsgold" class="rain" href="\osrsgp.html">OsRsGp</a>
+<div id="navbar">
+<a href="\projects.html">Projects</a>
+<a href="\rsgold.html">RsGold</a>
+<a href="\osrsgp.html">OsRsGp</a>
 <a href="\about.html">About Us</a>
 <a href="\orderpage.html">Order Now</a>
 <a href="\gallery.html">Gallery</a>
 <a href="\database.html">Database</a>
 <a href="\report.html">Report</a>
 <a href="\contactus.html">Contact Us</a>
+<a href="https://www.linkedin.com/in/harrison-hughey-a69b9419a/">LinkedIn</a>
+<a href="https://www.youtube.com">YouTube</a>
+<a href="\hangout.html">Hangout</a>
+<a href="\flappybird.html">Game 1</a>
+<a href="\speedjump.html">Game 2</a>
+<br><br><br><br>
+<p style="color:aqua;font-size:22px;position:absolute;left:90px;top:110px;">Supported Client's</p>
+<a id="arrow" href="/dog_training">Website #1</a>
+<a id="arrow" href="/projects">Website #2</a>
+<a id="arrow" href="/lawncare">Website #3</a>
 
-<a href="www.youtube.com">YouTube
-</a>
+
+</div>
 
 
 
-<br /><br />
-<p id="nav">
-    <b><center>Account Login:</center></b>
+
+
+
+<br /><br /><br /><br />
+<p id="nav">  
 </p>
+<br>
+<p id="logintxt">Account Login:</p>
+
+<!-- -->
+<!-- Account Login -->
 <div id="login">
-<form action="index.php" method="post">
+<form action="index.php" method="POST">
     <label for="fname">First name:</label><br>
     <input type="text" id="blank" name="uname"><br>
     <label for="lname">Last name:</label><br>
-    <input type="text" id="blank2" name="password"><br>
+    <input type="text" id="blank2" name="lname"><br>
     <br />
     <div id="button1">
     <input type="submit" id="send" value="Log in" name="user">
@@ -56,10 +80,11 @@
 </div>
 
 
+<!-- Account Recovery_Email -->
 
     <div id="recover">
 
-    <form action="index.php" method="post">
+    <form action="index_two.php" method="POST">
 
     <label for="ename">Email:</label><br>
     <input type="text" id="email" name="email"><br />
@@ -83,41 +108,61 @@
 
 <br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br />
+<!-- How to plug in Background Images -->
+
+<div id="examplecss">
+
+<!-- Paragraph One, Introduction to Website, Bio -->
+
 <p>
-    <center><h3>Hello World!</h3></center> <br />Welcome to my first website and I love
+    <center><h3>Hello World!</h3></center> <br /><br /><br /><br />
+    <center>
+        <p style="color:brown;"><br /><br /><br /><br />
+        Welcome to my first website and I love
     doing this out of the love of my heart.
+    </center>
+        </p>
 </p>
+</div>
+<br />
 <br /><br />
-<br /><br /><br />
+<br /><br /><br /><br /><br />
+
+<!-- Color Changing CSS Text Style RGB -->
+
 <div id="shadowBox">
 
     <h3 class="rainbow">Coming Soon</h3>
   
 </div>
-
+<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br />
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br />
 
-<form method="post" action="index.php" id="create_form">
+<!-- Current version of On-Site File Mangement -->
+
+<form method="POST" action="index.php" id="create_form">
     <input type="text" name="file_name">
     <input type="submit" value="Create File" name="create_file">
    </form>
    
-   <form method="post" action="index.php" id="edit_form">
+   <form method="POST" action="index.php" id="edit_form">
     <input type="text" name="file_name">
     <textarea name="edit_text"></textarea>
     <input type="submit" value="Edit File" name="edit_file">
    </form>
    
-   <form method="post" action="index.php" id="delete_form">
+   <form method="POST" action="index.php" id="delete_form">
     <input type="text" name="file_name">
     <input type="submit" value="Delete File" name="delete_file">
    </form>
 
 
+<!-- StarkMarkt Footer -->
 
 <p>
     <center>This is copyrighted by StarkMarkt Inc.©</center>
@@ -125,8 +170,29 @@
 
 
 
+</div>
 
 
 
 </body>
+
 </html>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+-->
