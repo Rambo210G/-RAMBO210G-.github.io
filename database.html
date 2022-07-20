@@ -8,11 +8,72 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!--
     
+        This is the code stack
+        responsible for the 
+        header of StarkMarkt.
+
+        It involves a class
+        which makes the 
+        txt change colors.
+
+    -->
+
+    <div id="title">
+        <div id="opening">  
+        
+            <h1 class="rainbowtwo">Welcome to StarkMarkt!</h1>
+        
+        </div>
+    </div> 
+    
+<!--
+    The tag responsible for
+    linking back to the
+    homepage!
+
+-->
+
     <a href="\main.html">Back to Homepage</a>
 
+<br /><br /><br /><br />
+
+<!--Java Script Button Click
+    Change HTML Tag Content-->
 
 
+<h2>What Can JavaScript Do?</h2>
+ 
+<p id="js_txt_manipulation">JavaScript can change HTML content.</p>
 
+<button type="button" onclick="document.getElementById('js_txt_manipulation').innerHTML = 'Hello JavaScript!'">Open me!</button>
+
+<br /><br />
+
+<h2>What Can JavaScript Do?</h2>
+
+<p>JavaScript can change HTML attribute values.</p>
+
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+<button onclick="document.getElementById('myImage').src='https://www.antiquelampsupply.com/media/catalog/product/cache/174e437fc5a2fc2c5de9377d1964767e/4/7/47260.jpg'"><!-- Thihisf-->Turn on the light</button>
+
+<img id="myImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqme20QjvHFix5H4YIngx0o0BeME8dQThSw&usqp=CAU" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqme20QjvHFix5H4YIngx0o0BeME8dQThSw&usqp=CAU'">Turn off the light</button>
+
+
+<br /><br /><br /><br /><br /><br />
+<!--Button that returns the Date-->
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+<br /><br /><br /><br /><br /><br />
 </body>
 </html>
