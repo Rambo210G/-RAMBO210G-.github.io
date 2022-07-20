@@ -1,0 +1,82 @@
+<!DOCTYPE html lang="en">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="hstyle.css">
+</head>
+
+<body>
+  <!-- Top section of the webpage -->
+  <div id="title">
+    <div id="opening" class='container'>  
+      <h1 class="rainbowtwo">WhereYat look Anyone Up!</h1>
+    </div>
+  </div>
+  <!-- This is the navigation section with all the links -->
+  <section class='container'>
+    <a id="" class="" href="\projects_home.html">Projects</a>
+    <a id="" class="" href="">Geo-Lookup</a>
+    <a href="\about_home.html">About Us</a>
+    
+   
+  </section>
+  <!-- Section one of the login and recovery forms -->
+  <section class='login container'>
+    <b>Account Login</b>
+  </section>
+  <!-- Section two of the login and recovery forms -->
+  <section class='forms container'>
+  <div id="login">
+    <form action="yat.php" method="post">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="blank" name="uname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="blank2" name="password"><br>
+      <br />
+      <div id="">
+        <input type="submit" id="send" value="Log in" name="user">
+      </div>
+    </form>
+    <br /><br />
+  </div>
+  </section>
+  <!-- Horizontal line to seperate the top from bottom -->
+  <hr>
+  <!-- The gif and owners' short info -->
+  <section class='container owners_about'>
+    <img id="gif" src="https://i.gifer.com/HGoX.gif" alt="Find You">
+    <div>
+      <h3>Hello Visitors!</h3>
+      <br />Tired of sitting around waiting, ' Where Yat ', Connect Now!
+    </div>
+  </section>
+  <!-- The 'coming soon' section -->
+  <div id="shadowBox">
+    <h3 class="rainbow">Please Donate</h3>
+  </div>
+  <!-- Everything within the following div will be hidden from the webpage until the owner suggests a change -->
+  <div class='hidden'>
+    <form method="post" action="yat.php" id="create_form">
+      <input type="text" name="file_name">
+      <input type="submit" value="Create File" name="create_file">
+    </form>
+    <form method="post" action="yat.php" id="edit_form">
+      <input type="text" name="file_name">
+      <textarea name="edit_text"></textarea>
+      <input type="submit" value="Edit File" name="edit_file">
+    </form>
+    <form method="post" action="yat.php" id="delete_form">
+      <input type="text" name="file_name">
+      <input type="submit" value="Delete File" name="delete_file">
+    </form>
+  </div>
+  <!-- The webpage footer -->
+  <p>
+    <center>This is copyrighted by StarkMarkt Inc.©</center>
+  </p>
+  <!-- Credit to WinterSunset95 Â for Shrinking Code -->
+</body>
+</html>
