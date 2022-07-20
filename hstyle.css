@@ -1,0 +1,175 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: max;
+  }
+  .container > a {
+    flex-grow: 1;
+    margin: 5px;
+  }
+  #opening {
+    background-color: black;
+    border: solid;
+    border-width: 4px;
+    padding: 30px;
+  }
+  .login {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .forms > div {
+    margin: 10px;
+    border: solid;
+    padding: 10px;
+    background-color: green;
+    box-shadow: -5px 0px 16px 6px rgb(0, 0, 0);
+    border-radius: 2em;
+  }
+  #text1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:mediumturquoise
+  }
+  #gif {
+    width: 300px;
+    height: 325px;
+    box-shadow: 5px 5px 5px 5px darkseagreen;
+    border: solid rgb(34, 137, 25);
+    border-width: 3px;
+  }
+  .owners_about {
+    margin: 20px;
+  }
+  .owners_about > * {
+    padding: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    animation: colorRotate 6s linear 0s infinite;
+  }
+  .rainbowtwo {
+    text-align: center;
+    padding: 10px;
+    text-decoration: double;
+    border: solid;
+    border-color:aqua;
+    border-width: 30px;
+    border-radius: 100%, 10px, 50px;
+    border-style: groove;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    animation: colorRotate 9s linear 0s infinite;
+    box-shadow: -0px 0px 18px 14px aquamarine;
+
+  }
+  .rainbowthree {
+    position: absolute;
+    top: 100px;
+    left: -5px;
+    border-style: groove;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    animation: colorRotate 9s linear 0s infinite;
+  }
+  a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(119, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  a:hover, a:active {
+    background-color: rgb(274, 9, 3);
+    color: white;
+  }
+  /* Anything below this comment is currently redundant/unused */
+  #box {
+      background-color: crimson;
+      width: 100px;
+      height: 50px;
+  }
+  #buybutton {
+  position: absolute;
+  top: 670px;
+  left: 250px;
+  background-color:rgb(241, 20, 130);
+  border: solid;
+  border-width: 30px;
+  padding: 5px;
+  }
+  #pictwo {
+  position: absolute;
+  top: 500px;
+  left: 120px;
+  height: 150px;
+  width: 300px;
+  }
+    .rotateimg180 {
+      -webkit-transform:rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+    }
+  #pic { 
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    border: solid;
+    border-width: 40px;
+    }
+  #shadowBox {
+      background-color: rgb(0, 0, 0);
+      /* Fallback color */
+      background-color: rgba(223, 55, 55, 0.2);
+      /* Black w/opacity/see-through */
+      border: 3px solid;
+      background-color: black;
+  }
+  #rsgold {
+      left: 857px;
+      top: 166px;
+      height: 18px;
+  
+    }
+  #projects {
+    position: absolute;
+    left: 956px;
+    top: 166px;
+    height: 18px;
+    width: 58px;
+  }
+    body {
+      animation: colorchange 10s infinite; 
+    }
+    @keyframes colorRotate {
+      from {
+        color: #6666ff;
+      }
+      10% {
+        color: #0099ff;
+      }
+      50% {
+        color: #00ff00;
+      }
+      75% {
+        color: #ff3399;
+      }
+      100% {
+        color: #6666ff;
+      }
+    }
